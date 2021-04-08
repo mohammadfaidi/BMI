@@ -26,3 +26,10 @@ void main() => runApp(MaterialApp(home:MyHomePage() ,));
       appBar: AppBar(
       
       
+dependencies:
+  flutter:
+    sdk: flutter
+
+  font_awesome_flutter:  ^9.0.0
+  
+  
