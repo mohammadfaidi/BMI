@@ -86,3 +86,7 @@ Text ...
 
 take container fit the quarter in all screen /tables/ios /small phone ...etc
 
+
+
+mainAxisAligment and cross just in coloumn and row 
+expanded work outside or ... 
