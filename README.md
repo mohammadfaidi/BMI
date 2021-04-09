@@ -146,5 +146,41 @@ Slider(
   ),
   
   
-  
+  Expanded(
+  child:   Container(
+    width : width,
+    height: height*.1,
+    color:Colors.white,
+    child: FlatButton(
+
+      child: txt(title:"Calculate your BMI",fontWeight:FontWeight.bold,size:17),
+      onPressed: (){
+
+print("${_weight / (_currentSliderValue * _currentSliderValue) }");
+
+showDialog(context: context, builder: (context)=>AlertDialog(
+
+title: txt(title:"Your BMI"),
+content: txt(title:(_weight/(_currentSliderValue*_currentSliderValue)).toString(),)
+
+),
+
+
+);
+
+//show dialog
+
+
+
+
+
+      },
+
+    ),
+    
+  ),
+
+
+),
+
 
