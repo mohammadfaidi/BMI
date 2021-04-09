@@ -72,3 +72,17 @@ elevation: 8,
 backgroundColor: Color(0xff12153b),
 
 
+to make responsive and fit with all mobile 
+
+ Widget build(BuildContext context) {
+    final width = MediaQuery.of(context).size.width;
+    final height = MediaQuery.of(context).size.height;
+
+
+container (
+height * 0.4
+width * 0.2
+Text ...
+
+take container fit the quarter in all screen /tables/ios /small phone ...etc
+
