@@ -61,3 +61,14 @@ Here is what that looks like:
 
 if we have some componet or container and different color or position to prvent to duplociate we do seperate widget customize and in main.dart just need to call constrictarr with parameters ..
 this make more performance 
+
+
+
+  //The following elevations have defined shadows: 1, 2, 3, 4, 6, 8, 9, 12, 16, 24.
+elevation: 8,
+
+
+
+backgroundColor: Color(0xff12153b),
+
+
