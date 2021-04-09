@@ -125,3 +125,26 @@ Slider(
   max:200),
 
 
+     Iconbutton(
+  
+  icon:Icons.minimize,
+  
+  onPressed: (){
+  
+  setState(() {
+  
+              _weight--;
+  
+  });
+  
+  
+  
+  },
+  
+  
+  
+  ),
+  
+  
+  
+
