@@ -90,3 +90,13 @@ take container fit the quarter in all screen /tables/ios /small phone ...etc
 
 mainAxisAligment and cross just in coloumn and row 
 expanded work outside or ... 
+
+
+
+ decoration: BoxDecoration(
+color: Colors.white30,
+borderRadius: BorderRadius.circular(18)
+                ),
+                
+                
+                
