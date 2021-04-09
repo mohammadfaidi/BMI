@@ -58,3 +58,6 @@ Other options are
 Here is what that looks like:
 
   
+
+if we have some componet or container and different color or position to prvent to duplociate we do seperate widget customize and in main.dart just need to call constrictarr with parameters ..
+this make more performance 
