@@ -32,4 +32,29 @@ dependencies:
 
   font_awesome_flutter:  ^9.0.0
   
+How to align widgets
+
+To align a child widget within its parent you use the Align widget. If you know how to use the Center widget then you are the right track because Center is just a special case of Align.
+
+Wrap the widget you wish to align with the Align widget and set its alignment property. For example, this would align a text widget to the middle right of the parent.
+
+Align(
+  alignment: Alignment.centerRight,
+  child: Text("widget"),
+)
+
+Other options are
+
+    Alignment.topLeft
+    Alignment.topCenter
+    Alignment.topRight
+    Alignment.centerLeft
+    Alignment.center
+    Alignment.centerRight
+    Alignment.bottomLeft
+    Alignment.bottomCenter
+    Alignment.bottomRight
+
+Here is what that looks like:
+
   
