@@ -108,3 +108,20 @@ borderRadius: BorderRadius.circular(18)
 
 
 //pub.dev ->help you 
+
+
+//pub.dev ->help you 
+Slider(
+  activeColor: Colors.black,
+  inactiveColor: Colors.white.withOpacity(.5),
+  value: _currentSliderValue, 
+  label: _currentSliderValue.round().toString(),
+  onChanged: (double newvalue){
+  setState(() {
+              _currentSliderValue =newvalue;
+  });
+  },
+  min:50,
+  max:200),
+
+
